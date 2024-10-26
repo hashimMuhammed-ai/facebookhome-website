@@ -1,0 +1,127 @@
+.header{
+  background-color: #3b5998;
+  width: 100%;
+  height: 85px;
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+  padding-left: 120px;
+  padding-top: 35px;
+}
+.logo a{
+  color:white;
+  text-decoration: none;
+  font-size: 35px;
+  font-weight: bold;
+  
+}
+.login-details form label{
+  padding-right: 75px;
+  color: white;
+  font-size: 15px;
+}
+
+.login-details{
+  padding-top: 10px;
+  padding-right: 120px;
+}
+.login-details .box{
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.login-button{
+  margin-left: 5px;
+  background-color: #4267b2;
+  color: white;
+  border-style: solid;
+  border-color: #29487d;
+}
+.login-button:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
+.login-details .forgotten-account{
+  padding-left: 180px;
+  color:#9cb4d8;
+  font-size: 13px;
+}
+.main-body{
+  background: linear-gradient(white, #D3D8E8);
+  height: 350px;
+  width: 100%;
+  display: flex;
+}
+.left-section p{
+  padding-left: 120px;
+  padding-top: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.connecting-people{
+  width: 580px;
+  padding-left: 80px;
+}
+.create-account{
+  font-size: 24px;
+  font-weight: bold;
+}
+.right-section{
+  padding-top: 39px;
+  position: relative;
+  
+}
+.full-name{
+  margin-top: 14px;
+  padding: 5px;
+}
+.right-section .details{
+  margin-top: 8px;
+  padding: 5px;
+  width: 350px;
+  
+
+  
+}
+.birthday{
+  position: absolute;
+  bottom: 120px;
+  font-size: 13px;
+  color: gray;
+  font-weight: bold;
+  
+  
+}
+.right-section .full-name, .details{
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 2px;;
+}
+.right-section select{
+ margin-top: 33px;
+ margin-bottom: 5px;
+
+  
+}
+.gender{
+  font-size: 13px;
+  color: gray;
+  font-weight: bold;
+}
+.sign-up{
+  margin-top: 10px;
+  width: 150px;
+  padding: 5px;
+  background-color: rgb(22, 158, 22);
+  color: white;
+  border-style: solid;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
